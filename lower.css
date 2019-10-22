@@ -1,0 +1,118 @@
+
+.accordion {
+  background-color:#ecf0f1;
+  color:#000;
+  cursor: pointer;
+  padding: 9.5px;
+  padding-right: 10px;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #f2f2f2;
+  transition: 0.4s;
+  
+}
+button:focus {outline:0;}
+.accordion a:hover{
+    color: #e67e22 !important;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color:rgba(255,255,255,0.5) !important;
+  border: 1px solid #e3e3e3;
+  color: #e67e22
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.panel a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 120%;
+}
+.panel .far{
+background-color: #3498db !important;
+color: white;
+margin-right: 5px;
+}
+.list-group-item{
+    background-color:#ecf0f1 !important;
+    color: black;
+    border-left: transparent;
+    border-right: transparent;
+    font-size: 85%;
+}
+.list-group-item .fas{
+color: #e67e22;
+margin-right: 2%;
+}
+.form-group{
+  margin-top: -2%;
+  margin-bottom: -0.2%;
+}
+.iconss{
+  /* display: flex; */
+   float: left; 
+}
+.iconss .fas{
+  margin-top: -0.5px;
+  padding: 6%;
+  font-size: 100%;
+  margin-right: 4%;
+}
+.icons2 .fas{
+  background-color: #27ae60;
+  font-size: 300%;
+  margin: 5%;
+  margin-left: 39%;
+  /* margin: auto; */
+  align-content: center;
+  padding: 4%;
+}
+.icons3{
+  align-content: center;
+  text-align: center;
+}
+.icons3 .fas{
+  background-color: #2980b9;
+  font-size: 90%;
+  padding: 3%;
+}
+.icons3 p{
+  color: white;
+}
+.inside{
+  display: flex;
+}
+.social{
+  align-content: center;
+  text-align: center;
+  margin-left: 18%;
+}
+.social .fab{
+  font-size: 200%;
+}
+.part1{
+  display: flex;
+}
+.part1 a{
+  color: white;
+  letter-spacing: 3%;
+  font-weight: 3%;
+  margin-left: 3%;
+  text-decoration: none;
+}
+.part1 a:hover{
+  color: #3498db;
+}
+.footer{
+  text-align: center;
+  padding: 1.5%;
+}
+.footer p{
+  color: white;
+}
